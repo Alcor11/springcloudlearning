@@ -17,6 +17,7 @@ public class StockController {
 
     @RequestMapping("/reduce")
     public String reduce() {
+        System.out.println("master");
         System.out.println("扣除");
         return "reduce";
     }
